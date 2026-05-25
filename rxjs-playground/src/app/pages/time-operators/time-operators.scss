@@ -1,0 +1,51 @@
+﻿.time-operators-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+
+  h1 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  .description {
+    margin-bottom: 2rem;
+    color: #666;
+    font-size: 0.95rem;
+    background-color: #f4ece6;
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #6f4e37;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #5a3f2c;
+    }
+
+    &:active {
+      background-color: #4a3323;
+    }
+  }
+
+  .info {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #6f4e37;
+    color: #666;
+    font-size: 0.9rem;
+  }
+}

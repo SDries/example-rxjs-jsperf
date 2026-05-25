@@ -1,0 +1,13 @@
+﻿<div class="time-operators-container">
+  <h1>Time-based Operators</h1>
+  <p class="description">
+    Observable emits every 100ms for 10 times. Each operator is applied with 300ms interval.
+  </p>
+  <button (click)="noOperatorExample()">No Operator (Raw Stream)</button>
+  <button (click)="auditTimeExample()">auditTime(300ms)</button>
+  <button (click)="debounceTimeExample()">debounceTime(300ms)</button>
+  <button (click)="throttleTimeExample()">throttleTime(300ms)</button>
+  <button (click)="sampleTimeExample()">sampleTime(300ms)</button>
+  <p class="info">Open the browser console to see the timing output</p>
+</div>
+

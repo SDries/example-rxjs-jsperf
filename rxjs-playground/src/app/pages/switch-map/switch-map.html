@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>SwitchMap Operator Ordering Examples</h1>
+  <div>
+    <button (click)="show = !show">Show/Hide</button>
+  </div>
+  <app-test *ngIf="show" />
+<!--  <button (click)="example1()">Example 1: switchMap → takeUntilDestroyed (✅ No Leak)</button>-->
+<!--  <button (click)="example2()">Example 2: takeUntilDestroyed → switchMap (⚠️ Potential Leak)</button>-->
+  <p class="info">Open the browser console to see the output and understand operator ordering importance</p>
+</div>
+

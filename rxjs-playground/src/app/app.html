@@ -1,0 +1,14 @@
+<nav class="sidebar">
+  <h2>RxJS Playground</h2>
+  <ul>
+    @for (link of navLinks; track link.path) {
+      <li>
+        <a [routerLink]="link.path" routerLinkActive="active">{{ link.label }}</a>
+      </li>
+    }
+  </ul>
+</nav>
+
+<main class="content">
+  <router-outlet />
+</main>
